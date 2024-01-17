@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.821 s <<< FAILURE! - in TestSuite
+testSolve_a_null_b_proche_de_0_positif__c_null on testSolve_a_null_b_proche_de_0_positif__c_null(dev.djob.id.EquationTest)(dev.djob.id.EquationTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<NaN>
+	at dev.djob.id.EquationTest.testSolve_a_null_b_proche_de_0_positif__c_null(EquationTest.java:40)
+
+testSolve_a_normal_positif__b_negatif_grand__c_grand_positif_ on testSolve_a_normal_positif__b_negatif_grand__c_grand_positif_(dev.djob.id.EquationTest)(dev.djob.id.EquationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<0.06360769271850586>
+	at dev.djob.id.EquationTest.testSolve_a_normal_positif__b_negatif_grand__c_grand_positif_(EquationTest.java:525)
+
+testSolve_a_tres_proche_de_zero__b_normal_negatif__c_tres_proche_de_zero_ on testSolve_a_tres_proche_de_zero__b_normal_negatif__c_tres_proche_de_zero_(dev.djob.id.EquationTest)(dev.djob.id.EquationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<8.060751829317883E-8>
+	at dev.djob.id.EquationTest.testSolve_a_tres_proche_de_zero__b_normal_negatif__c_tres_proche_de_zero_(EquationTest.java:137)
+
+testSolve_a_tres_proche_de_0_negatif__b_proche_de_0_negatif__c_proche_de_0_positif_ on testSolve_a_tres_proche_de_0_negatif__b_proche_de_0_negatif__c_proche_de_0_positif_(dev.djob.id.EquationTest)(dev.djob.id.EquationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-4.0661785050133403E-10>
+	at dev.djob.id.EquationTest.testSolve_a_tres_proche_de_0_negatif__b_proche_de_0_negatif__c_proche_de_0_positif_(EquationTest.java:234)
+
