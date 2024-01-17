@@ -2,7 +2,7 @@ package dev.djob.id;
 
 import org.testng.annotations.Test;
 
-public class testStep {
+public class TestSolver {
 
     @Test
     public void buildTestSolver(){
