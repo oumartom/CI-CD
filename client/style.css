@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     padding: 20px;
   }
@@ -30,4 +30,45 @@ body {
   button:hover {
     background-color: #0056b3;
   }
-  
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #db8181; /* Couleur de fond de la page */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Ajout d'une bordure arrondie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333333; /* Couleur du texte des étiquettes */
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; /* Couleur de la bordure des champs de saisie */
+    border-radius: 4px; /* Ajout d'une bordure arrondie */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -34,7 +34,7 @@ public void l_équation_du_second_degré_avec_coefficients_a_b_c(Integer int1, I
     number3 = int3; 
 
     // Write code here that turns the phrase above into concrete actions
-    driver.get("file:///C:/Users/Djob%20Lucien/Desktop/M2/your-artifact-id/client/app.html");
+    driver.get("C:/Users/COMPUTER STORES/Downloads/your-artifact-id/your-artifact-id/client/app.html");
 }
 @When("je résous l'équation")
 public void je_résous_l_équation() {
