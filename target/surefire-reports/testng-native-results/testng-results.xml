@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T13:49:12 CET" name="Surefire suite" finished-at="2024-01-25T13:49:19 CET" duration-ms="7182">
+  <suite started-at="2024-01-25T17:56:19 CET" name="Surefire suite" finished-at="2024-01-25T17:56:24 CET" duration-ms="4821">
     <groups>
     </groups>
-    <test started-at="2024-01-25T13:49:12 CET" name="Surefire test" finished-at="2024-01-25T13:49:19 CET" duration-ms="7182">
-      <class name="dev.djob.id.TestSolver">
-        <test-method signature="buildTestSolver()[pri:0, instance:dev.djob.id.TestSolver@2cbb3d47]" started-at="2024-01-25T13:49:12 CET" name="buildTestSolver" finished-at="2024-01-25T13:49:19 CET" duration-ms="7087" status="PASS">
+    <test started-at="2024-01-25T17:56:19 CET" name="Surefire test" finished-at="2024-01-25T17:56:24 CET" duration-ms="4821">
+      <class name="dev.equation.id.TestSolver">
+        <test-method signature="buildTestSolver()[pri:0, instance:dev.equation.id.TestSolver@2cbb3d47]" started-at="2024-01-25T17:56:19 CET" name="buildTestSolver" finished-at="2024-01-25T17:56:24 CET" duration-ms="4728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buildTestSolver -->
-      </class> <!-- dev.djob.id.TestSolver -->
+      </class> <!-- dev.equation.id.TestSolver -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

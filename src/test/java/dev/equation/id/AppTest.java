@@ -1,4 +1,4 @@
-package dev.djob.id;
+package dev.equation.id;
 
 import static org.junit.Assert.assertTrue;
 

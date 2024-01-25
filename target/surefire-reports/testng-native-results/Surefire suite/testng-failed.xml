@@ -3,11 +3,11 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="dev.djob.id.TestSolver">
+      <class name="dev.equation.id.TestSolver">
         <methods>
           <include name="buildTestSolver"/>
         </methods>
-      </class> <!-- dev.djob.id.TestSolver -->
+      </class> <!-- dev.equation.id.TestSolver -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

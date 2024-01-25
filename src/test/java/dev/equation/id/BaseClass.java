@@ -1,11 +1,12 @@
-package dev.djob.id;
+package dev.equation.id;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import dev.djob.id.Utilities.ReadConfig;;
+
+import dev.equation.id.Utilities.ReadConfig;;
 public class BaseClass {
     ReadConfig read = new ReadConfig();
     public String googlebaseurl = read.getGoogleBaseURL();

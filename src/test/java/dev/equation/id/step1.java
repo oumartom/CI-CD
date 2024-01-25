@@ -1,6 +1,8 @@
-package dev.djob.id;
+package dev.equation.id;
 
 import org.testng.Assert;
+
+import dev.djob.id.EquationSolver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package dev.djob.id.Utilities;
+package dev.equation.id.Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
